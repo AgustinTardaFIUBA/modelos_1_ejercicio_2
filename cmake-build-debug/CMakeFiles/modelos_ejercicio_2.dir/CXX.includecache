@@ -9,10 +9,8 @@
 /home/agustin/CLionProjects/modelos_ejercicio_2/Garment.h
 list
 -
-
-/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.cpp
-WashingMachine.h
-/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.h
+iostream
+-
 
 /home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.h
 Garment.h

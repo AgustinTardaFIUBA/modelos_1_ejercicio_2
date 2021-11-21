@@ -1,6 +1,7 @@
 #ifndef MODELOS_EJERCICIO_2_GARMENT_H
 #define MODELOS_EJERCICIO_2_GARMENT_H
 #include <list>
+#include <iostream>
 using namespace std;
 
 class Garment {
@@ -25,6 +26,8 @@ public:
     int getNumber();
 
     bool isCompatibleWith(Garment *pGarment);
+
+    void printIncompatibilities();
 };
 
 

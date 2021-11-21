@@ -36,3 +36,11 @@ bool Garment::isCompatibleWith(Garment *pGarment) {
 
   return isCompatible;
 }
+
+void Garment::printIncompatibilities() {
+  for (auto it = incompatibleClothes->begin(); it != incompatibleClothes->end(); ++it){
+    int incompatibleClotheNumber= *it ;
+    cout<< incompatibleClotheNumber <<" , "  ;
+  }
+  cout<<endl ;
+}

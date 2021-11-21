@@ -85,7 +85,7 @@ void addGermentOnWashingMachines(Garment *garment, list<WashingMachine *> *washi
   }
 
   if(!wasAdded)
-    washingMachines->push_back(new WashingMachine(garment, washingMachines->size()));
+    washingMachines->push_back(new WashingMachine(garment, washingMachines->size() + 1));
 
 }
 
@@ -94,6 +94,7 @@ void printClothes(list<Garment *> *clothes) {
   for (auto it = clothes->begin(); it != clothes->end(); ++it){
     Garment* germent= *it ;
     cout<<"Number: " << germent->getNumber() << " Time: " << germent->getWashingTime() << endl;
+    germent->printIncompatibilities();
   }
 }
 
@@ -154,7 +155,7 @@ void addIncompatibility(int n1, int n2, list<Garment*> *clothes) {
   if(germent ==NULL) {
     //cout<< "CREATED " << n1 << endl;
     germent = new Garment(n1);
-    clothes->push_back(new Garment(n1));
+    clothes->push_back(germent);
   }
   germent->addIncompatibilityWith(n2);
 }
