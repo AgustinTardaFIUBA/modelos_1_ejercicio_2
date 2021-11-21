@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agustin/CLionProjects/modelos_ejercicio_2/Garment.h
+list
+-
+
+/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.cpp
+WashingMachine.h
+/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.h
+
+/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.h
+Garment.h
+/home/agustin/CLionProjects/modelos_ejercicio_2/Garment.h
+list
+-
+
+/home/agustin/CLionProjects/modelos_ejercicio_2/main.cpp
+iostream
+-
+fstream
+-
+list
+-
+WashingMachine.h
+/home/agustin/CLionProjects/modelos_ejercicio_2/WashingMachine.h
+Garment.h
+/home/agustin/CLionProjects/modelos_ejercicio_2/Garment.h
+

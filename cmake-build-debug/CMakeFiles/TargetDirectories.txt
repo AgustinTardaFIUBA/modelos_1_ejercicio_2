@@ -1,0 +1,3 @@
+/home/agustin/CLionProjects/modelos_ejercicio_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/agustin/CLionProjects/modelos_ejercicio_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/agustin/CLionProjects/modelos_ejercicio_2/cmake-build-debug/CMakeFiles/modelos_ejercicio_2.dir
