@@ -1,0 +1,13 @@
+Al usar el mismo algoritmos que para la entrega 1 los puntajes daban muy alto. Entonces decidi ordenar las prendas por
+el timpo que se tarda en lavrla y empezando por las prendas que llevan mas tiempo, compienzo a crear lavarropas
+intantando acumular la mayor cantidad de ropa que tiene un costo temporal alto en un mismo lavarropas. Siguiendo el
+razonamiento anterior podemos lograr combinar prendas de bajo costo temporal en lavarropas que ya contienen prenda de
+alto costo "aprovechando" que el tiempo de ese lavarropas ya ocupa el tiempo de la prenda de bajo costo temporal.
+
+Otras ideas que se me ocurrieron fue separar las ropas con mas conflicto y crear lavarropas para ellas, pero me di
+cuenta que puede pasar que las ropas con muchos conflictos sean de costo temporal bajo y me queden todas de costo
+temporal separadas en distintos lavarropas, incrementando asi el costo temporal total. Una excelente idea para mejorar
+el tiempo seria hacer un arbol de decision el cual se ramifique cada vez que una prenda pueda ir en varios lavarropas.
+Una vez que se complete el arbol (o sea que todas las posibilidades fueron abarcadas) calcular el tiempo total de cada
+configuracion de lavarropas y quedarte con la mejor configuracion, el gran problema de esto ultimo es que llevaria
+demasiado tiempo y seria muy complejo de implentar.
